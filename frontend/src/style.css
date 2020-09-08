@@ -10,6 +10,13 @@ body{
     font: 1.6rem Helvetica, Arial;
     margin: 0;
 }
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: #f08040;
+}
 .grid-container{
     display: grid;
     grid-template-areas: 
@@ -78,5 +85,9 @@ footer{
     line-height: 2.2rem;
 }
 .product-brand{
-    font-size:
+    font-size: 1.2rem;
+    color: #808080;
+}
+.product-price{
+    font-size: 2rem;
 }
