@@ -1,0 +1,23 @@
+{
+  "name": "ecommercejs",
+  "version": "1.0.0",
+  "description": "Ecommerce JS 1. Create folder structure     1. Create root folder as Ecommercejs     2. Add frontend and backend folder     3. create src folder in frontend     4. create index.html with heading Ecommerce JS in src     5. run npm init in frontend folder     6. npm install live-server     7. add start command as liver-server src --verbose     8. run npm start",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/600rrchris/ecommerce.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/600rrchris/ecommerce.js/issues"
+  },
+  "homepage": "https://github.com/600rrchris/ecommerce.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

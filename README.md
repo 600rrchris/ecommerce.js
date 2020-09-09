@@ -51,3 +51,14 @@ Ecommerce JS
     8. build parseUrl and compare with routes
     9. if route exists render it, else render Error404
     10. create screens/Error404.js and render error message
+
+6. Create Node.JS Server
+    1. run npm init in root folder
+    2. rpm install express
+    3. create server.js
+    4. add start command as node backend/server.js
+    5. require express
+    6. move data.js from frontend to backend
+    7. create route for /api/products
+    8. return products in data.js
+    9. run npm start
