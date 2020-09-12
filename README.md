@@ -81,4 +81,4 @@ Ecommerce JS
     8. add <script src="main.js"></script>before </body>
     9. npm start
     10. npm install axios
-    11. change fetch to axios
+    11. change fetch to axios in HomeScreen
