@@ -82,3 +82,11 @@ Ecommerce JS
     9. npm start
     10. npm install axios
     11. change fetch to axios in HomeScreen
+
+9. Insatll Babel For ES6 Syntax
+    1. npm install -D babel core, cli, node, preset-env
+    2. Create .baelrc and set presets to @babel/preset-env
+    3. npm insatll -D nodemon
+    4. set start: nodemon --watch backend --exec bael-node backend/server.js
+    5. convert require to import in server.js
+    6. npm start
