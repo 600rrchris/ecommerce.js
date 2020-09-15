@@ -87,6 +87,6 @@ Ecommerce JS
     1. npm install -D babel core, cli, node, preset-env
     2. Create .baelrc and set presets to @babel/preset-env
     3. npm insatll -D nodemon
-    4. set start: nodemon --watch backend --exec bael-node backend/server.js
+    4. set start: nodemon --watch backend --exec babel-node backend/server.js
     5. convert require to import in server.js
     6. npm start
