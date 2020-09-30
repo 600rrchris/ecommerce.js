@@ -1,20 +1,20 @@
 import axios from 'axios';
 
 const HomeScreen = {
-    render: async () =>{
+    render: async () => {
         const response = await axios({
             url: 'http://localhost:5000/api/products',
             headers: {
-                'Content-type':'application/json',   
+                'Content-type': 'application/json',
             },
         });
-        if(!response || response.statusText !== 'OK') {
-            return`<div>Error in getting data</div>`;
+        if (!response || response.statusText !== 'OK') {
+            return '<div>Error in getting data</div>';
         }
         const products = await response.data;
         return `
         <ul class="products">
-        ${products.map(product => `
+        ${products.map((product) => `
         <li>
          <div class="product">
             <a href="/#/product/1">
@@ -33,8 +33,7 @@ const HomeScreen = {
         </div>
     </div>
         </li>
-        `
-        ).join('\n')}
+        `).join('\n')}
         `;
     },
 };
