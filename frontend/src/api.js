@@ -7,10 +7,10 @@ export const getProduct = async (id) =>{
             url: `${apiUrl}/api/products/${id}`,
             method: 'GET',
             headers: {
-                'content-Type': 'application/json'
+                'Content-Type': 'application/json'
             }
         });
-        if (response.statusText != 'OK') {
+        if (response.statusText !== 'OK') {
             throw new Error(response.data.message);
         }
         return response.data;
