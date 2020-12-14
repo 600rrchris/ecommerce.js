@@ -134,3 +134,29 @@ Ecommerce JS
     10. create add to cart button with add-button id
     11. after_render() to add event to the button 
     12. redirect user to cart/:product_id
+
+14. 
+15.
+16. Add to Cart Action
+    1. create CartScreen.js
+    2. parseRequestUrl
+    3. getProduct(request.id)
+    4. addToCart
+    5. getCartItems
+    6. cartItems.find
+    7. if existItem update qty
+    8. else add item
+    9. setCartItems
+
+17. Cart Screen UI 
+    1. cartItems = getCartItems()
+    2. create 2 columns for cart items and cart actiion
+    3. cartItems.length === 0 ? cart is empty
+    4. show item image, name qty and price
+    5. cart action
+    6. Subtotal 
+    7. Proceed to Checkout button
+    8. Add CSS Style
+
+ 18. Update and Delete Cart Items
+    1. add   
