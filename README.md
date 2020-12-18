@@ -136,7 +136,9 @@ Ecommerce JS
     12. redirect user to cart/:product_id
 
 14. 
+
 15.
+
 16. Add to Cart Action
     1. create CartScreen.js
     2. parseRequestUrl
@@ -160,3 +162,8 @@ Ecommerce JS
 
  18. Update and Delete Cart Items
     1. add   
+    2. after_render()
+    3. add change event to qty select
+    4. getCartItems() and pass to addToCart()
+    5. set force to true to addToCart()
+    6. create rerender() as (component, areaName = 'content')
